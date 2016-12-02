@@ -13,7 +13,7 @@ namespace ConsoleFun
         static void Main(string[] args)
         {
             Console.WriteLine(Directory.GetCurrentDirectory());
-            foreach (string s in Directory.EnumerateFiles("../../images/"))
+            foreach (string s in Directory.EnumerateFiles("../../files/"))
             {
                 Console.WriteLine(s);
                 Process p = new Process();
